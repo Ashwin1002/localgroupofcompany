@@ -541,7 +541,7 @@ html[lang="ne"] .leader-badge strong { font-family: var(--font-body); }
 .contact-list li { display: flex; gap: 14px; align-items: flex-start; }
 .contact-list li > span:last-child { display: flex; flex-direction: column; }
 .contact-list b { font-weight: 700; color: var(--forest-2); }
-.contact-list a { color: var(--forest); font-weight: 600; }
+.contact-list a { color: var(--forest); font-weight: 600; overflow-wrap: anywhere; }
 .contact-icon {
   display: grid;
   place-items: center;
